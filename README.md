@@ -10,7 +10,8 @@ http://cabeleleilaleiladevricardoteste.x10.mx/
 
 - Ao acessar o sistema, a primeira ação será clicar no botão ***Começar***.
 
-![image](https://github.com/user-attachments/assets/304b2e55-f996-45e5-bb3e-edfc6215a165)
+![image](https://github.com/user-attachments/assets/a40c8c5f-72d3-4cd7-9ff6-108a48e5ea86)
+
 
 
 - Isso irá te levar para um formulário.
@@ -20,7 +21,8 @@ http://cabeleleilaleiladevricardoteste.x10.mx/
 - Preencha o formulário com suas informações e clique no botão "Salvar".
 - Após preencher o formulário, você verá a seguinte tela:
 
-![image](https://github.com/user-attachments/assets/5a842893-3255-4995-93c0-540f8674873c)
+![image](https://github.com/user-attachments/assets/b9196b86-3f47-403d-9b72-321d9d682f0f)
+
 
 
 - **Após essa tela carregar, você será redirecionado para a tela de login.**
@@ -29,14 +31,17 @@ http://cabeleleilaleiladevricardoteste.x10.mx/
 
 - Insira suas credenciais para acessar sua conta.
 
- ![image](https://github.com/user-attachments/assets/6733d27e-22a7-4a91-be4b-4667406d0cba)
+![image](https://github.com/user-attachments/assets/f496b9a1-b220-4d98-a83a-ed71dc8249e9)
+
 
 
 - Exemplo de login com o usuário **Felipe**.
 
 - Após fazer login, você verá a seguinte tela:
 
-![image](https://github.com/user-attachments/assets/0833f984-8e1e-4911-9c88-e310bc181f45)
+  
+![image](https://github.com/user-attachments/assets/0e779442-bd54-4774-ae6a-9078a4dbacf1)
+
 
 
 ### **Etapa 4: Agendamento**
@@ -47,7 +52,8 @@ http://cabeleleilaleiladevricardoteste.x10.mx/
 
 - Quando for fazer um novo agendamento, você verá o seguinte formulário:
 
-![image](https://github.com/user-attachments/assets/edd72f2e-a8b0-42db-8396-f04a91010aa6)
+![image](https://github.com/user-attachments/assets/32719893-dac3-4e3e-b28a-9adfe748dda8)
+
 
 
   - **Campos:**
@@ -59,7 +65,8 @@ http://cabeleleilaleiladevricardoteste.x10.mx/
 
 - Após preencher e salvar, você verá os seus agendamentos na seguinte tela:
 
-![image](https://github.com/user-attachments/assets/757d3294-0fa5-47f0-b9cd-e0e026e6d991)
+![image](https://github.com/user-attachments/assets/c87bc3ab-2de0-4bdc-9678-36cf5bf87d05)
+
 
 
 - Agora é só esperar a cabeleireira alterar o status de seu agendamento para **Confirmado**. Mas fique atento, pois ela também pode marcar como **Cancelado**.
@@ -74,7 +81,8 @@ Para quem vai administrar o sistema, existem algumas funcionalidades extras.
 
 - Faça login com o usuário **admin** e a senha **root** (para facilitar o teste).
 
-![image](https://github.com/user-attachments/assets/6089729a-712a-432e-80b7-42b2ef050134)
+![image](https://github.com/user-attachments/assets/fdb616cb-c2e0-4157-a242-f098adfbbb5f)
+
 
 
 - **Credenciais:**
@@ -85,15 +93,18 @@ Para quem vai administrar o sistema, existem algumas funcionalidades extras.
 
 - Após logar, você verá mais opções disponíveis na página principal:
 
-![image](https://github.com/user-attachments/assets/bf891090-ccbb-4929-ac8b-4a313c4472fc)
+![image](https://github.com/user-attachments/assets/d2edbd57-8079-4c47-a491-6a2dd6646dbd)
+
 
 
 - Como administrador, você pode:
   - Visualizar todos os usuários do sistema.
   - Editar ou excluir usuários.
   - Pesquisar por um usuário específico no campo de pesquisa.
+ 
+  
+![image](https://github.com/user-attachments/assets/333df420-b367-4b94-92d0-f92d81806900)
 
- ![image](https://github.com/user-attachments/assets/bdcb9586-8f5b-4c33-8b8f-704973371beb)
 
 
 ### **Gestão de Agendamentos**
@@ -102,8 +113,10 @@ Para quem vai administrar o sistema, existem algumas funcionalidades extras.
   - Visualizar todos os agendamentos.
   - Editar qualquer agendamento.
   - Deletar qualquer agendamento.
+ 
 
- ![image](https://github.com/user-attachments/assets/a9507df5-d7e5-4fbd-ade0-11222102bc62)
+![image](https://github.com/user-attachments/assets/c801a4b1-7277-47ba-a365-23d001f031f9)
+
 
 
 - O sistema detecta quando um cliente possui mais de um agendamento na mesma semana.
@@ -116,7 +129,8 @@ Para quem vai administrar o sistema, existem algumas funcionalidades extras.
   - **Concluído**.
   - **Cancelado**.
 
-![image](https://github.com/user-attachments/assets/1a06731f-cad6-4065-9a46-c54d0a0fb02d)
+![image](https://github.com/user-attachments/assets/e78068b8-9ef8-48dd-a9ee-935a0a713d19)
+
 
 
 - O status **Pendente** é a configuração padrão para você poder organizar melhor os agendamentos durante a semana.
@@ -150,8 +164,8 @@ admin :
 
 Basta apertar no botão desconectar no header:
 
+![image](https://github.com/user-attachments/assets/3fe4d41d-6e55-44d5-ba57-4059e3774681)
 
-![image](https://github.com/user-attachments/assets/d8f13831-0d61-41ea-982b-96aa2b36fe03)
 
 
 
@@ -174,3 +188,7 @@ Basta apertar no botão desconectar no header:
 - css
 - bootstrap
   
+### icones: 
+
+- FontAwesome
+- Freeipk
