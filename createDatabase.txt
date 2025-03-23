@@ -1,0 +1,33 @@
+CREATE DATABASE bd_salao;
+
+USE bd_salao;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    user VARCHAR(50) NOT NULL,
+    password VARCHAR(100) NOT NULL,
+    foto VARCHAR(256)
+);
+
+INSERT INTO usuarios (nome, user, password) 
+VALUES ('Ricardo', 'Ricardo', '123');
+
+-- Criação da tabela agendamentos com chave estrangeira e campo "hora"
+CREATE TABLE agendamentos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_cliente INT NOT NULL, 
+    nome_cliente VARCHAR(100) NOT NULL,
+    telefone VARCHAR(15),
+    data DATE NOT NULL,
+    hora TIME NOT NULL,
+    servicos TEXT NOT NULL,
+    status ENUM('Pendente', 'Confirmado', 'Concluído', 'Cancelado') DEFAULT 'Pendente',
+    
+    CONSTRAINT FK_clienteId FOREIGN KEY (id_cliente) REFERENCES usuarios(id)
+);
+
+-- Inserção de exemplo com "data" e "hora"
+INSERT INTO agendamentos (id_cliente, nome_cliente, telefone, data, hora, servicos) 
+VALUES 
+  (1, 'Ricardo', '12345678911', '1989-01-01', '10:00:00', 'Corte');

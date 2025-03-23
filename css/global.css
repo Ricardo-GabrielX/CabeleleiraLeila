@@ -1,0 +1,25 @@
+body {
+    background-color: #a2d2ff;
+
+}
+
+section {
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.custom-shadow {
+    box-shadow: 0 6px 13px rgba(0, 0, 0, 0.5);
+}
+
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --purple-500: #cdb4db;
+    --purple-100: #8650a5;
+    --blue: #0550fd;
+}
+
+

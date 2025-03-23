@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+}
+.redirect-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background-color: white;
+    text-align: center;
+}
+.success-icon {
+    font-size: 80px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+.redirect-message {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #666;
+}
+.static-progress {
+    height: 10px;
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.static-progress-bar {
+    height: 100%;
+    background-color: #28a745;
+    width: 100%;
+    animation: progressAnimation 3.5s linear forwards;
+}
+@keyframes progressAnimation {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home img {
+    width: 450px;
+    height: 450px;
+}
+
+.home p, a {
+    color: #333333;
+}
+
+
+.home h1 {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Efeitos */
+
+
+.bottone1 {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: var(--purple-100);
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+    color: var(--white);
+    
+}
+
+.bottone1:hover {
+    box-shadow: 7px 5px 56px -14px var(--purple-100);
+}
+
+.bottone1:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px var(--purple-500);
+}
+
+#spacing{
+    margin-bottom: 50px;
+}
+
+
+.btnHome {
+    background-color: var(--purple-500);
+    color: var(--purple-100);
+}
+
+.btnHome:hover {
+    background-color: var(--purple-100);
+    color: var(--white);
+}
+
+
+@media (max-width: 500px) {
+    .home {
+        display: block;
+    }
+
+    .home img {
+        margin: 0 auto;
+        display: flex;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .home {
+        display: block;
+        justify-content: center;
+    }
+
+    .home img {
+        margin: 0 auto;
+        display: flex;
+        width: 400px;
+        height: 400px;
+    }
+}
