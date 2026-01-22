@@ -1,7 +1,3 @@
-## Teste por aqui:
-
-http://cabeleleilaleiladevricardoteste.x10.mx/
-
 # **Cabeleleira Leila**
 
 ## **Como Funciona?**
