@@ -171,13 +171,6 @@ Basta apertar no botão desconectar no header:
 
 
 
-
-
-## Faltou:
-
-- Não consegui deixar com que pudesse editar um agendamento até 2 dias antes da data.
-- Sugerir que os serviços sejam agendados na mesma data.
-
   
 ## Tecnologias usadas: 
 
